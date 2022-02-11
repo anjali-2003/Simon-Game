@@ -21,9 +21,9 @@ $(".btn").click( function(){
 
 $(document).keypress(function(){
 	if(!start){
+		start=true;
 		$("#level-title").text("Level "+level);
 		nextSequence();
-		start=true;
 	}
 });
 
